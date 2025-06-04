@@ -11,8 +11,9 @@ html {
 
 body {
   font-family: "Segoe UI", sans-serif;
-  width: 100vw;
-  background-color: #0858d0;
+  box-sizing: border-box;
+  width: 100%;
+  /* background-color: #0858d0; */
   color: #333;
   line-height: 1.6;
 }
@@ -32,6 +33,7 @@ a {
   align-items: center;
   position: sticky;
   top: 0;
+  /* width: 100vw; */
   z-index: 100;
 }
 
@@ -89,6 +91,7 @@ a {
 /* Home Section */
 .home-section {
   display: flex;
+  /* width: 100vw; */
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
@@ -197,7 +200,7 @@ a {
 .about-section {
   padding: 4rem 2rem;
   background-color: #f3f4f6;
-
+  /* width: 100vw; */
   text-align: center;
 }
 
@@ -230,6 +233,7 @@ a {
   padding: 4rem 2rem;
   background-color: white;
   /* height: 67vh; */
+  /* width: 100vw; */
   text-align: center;
 }
 
