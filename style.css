@@ -12,7 +12,7 @@ html {
 body {
   font-family: "Segoe UI", sans-serif;
   box-sizing: border-box;
-  width: 100%;
+  /* width: 100%; */
   /* background-color: #0858d0; */
   color: #333;
   line-height: 1.6;
